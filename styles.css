@@ -20,7 +20,8 @@ html, body {
 
 .main {
     max-width: max-content;
-    position: relative;
+    position: absolute;
+    top: -90px;
     overflow: hidden;
 }
 
