@@ -30,7 +30,7 @@ html, body {
     left: var(--left-left);
     height: auto;
     transform: var(--move-out);
-    animation: anim-left 3s ease-in-out forwards;
+    animation: anim-left 4s 0.5s ease-in-out forwards;
 }
 
 .main img:nth-of-type(2) {
@@ -38,7 +38,7 @@ html, body {
     width: var(--bud-width);
     left: var(--right-left);
     transform: var(--move-out);
-    animation: anim-right 3s ease-in-out forwards;
+    animation: anim-right 4s ease-in-out forwards;
 }
 
 .main img:nth-of-type(3) {
