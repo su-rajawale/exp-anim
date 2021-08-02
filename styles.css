@@ -1,11 +1,11 @@
 :root {
-    --left-top: 8px;
-    --right-top: 20px;
-    --move-out: translateY(-300px);
+    --left-top: 10px;
+    --right-top: 18px;
+    --move-out: translateY(-260px);
     --left-left: 70px;
-    --right-left: 5px;
-    --case-width: 170px;
-    --bud-width: 100px;
+    --right-left: 10px;
+    --case-width: 200px;
+    --bud-width: 130px;
 }
 
 *,*::after,*::before {
