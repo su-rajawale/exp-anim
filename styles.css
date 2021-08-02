@@ -2,10 +2,10 @@
     --left-top: 10px;
     --right-top: 41px;
     --move-out: translateY(-1000px);
-    --left-left: 190px;
-    --right-left: 20px;
-    --case-width: 500px;
-    --bud-width: 290px;
+    --left-left: 144px;
+    --right-left: 11px;
+    --case-width: 375px;
+    --bud-width: 220px;
 }
 
 *,*::after,*::before {
