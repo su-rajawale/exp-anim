@@ -1,0 +1,69 @@
+:root {
+    --left-top: 8px;
+    --right-top: 20px;
+    --move-out: translateY(-300px);
+    --left-left: 70px;
+    --right-left: 5px;
+    --case-width: 170px;
+    --bud-width: 100px;
+}
+
+*,*::after,*::before {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.main {
+    max-width: max-content;
+    position: relative;
+    overflow: hidden;
+}
+
+.main img:nth-of-type(1) {
+    position: absolute;
+    width: var(--bud-width);
+    left: var(--left-left);
+    height: auto;
+    transform: var(--move-out);
+    animation: anim-left 5s ease-in-out forwards;
+}
+
+.main img:nth-of-type(2) {
+    position: absolute;
+    width: var(--bud-width);
+    left: var(--right-left);
+    transform: var(--move-out);
+    animation: anim-right 5s ease-in-out forwards;
+}
+
+.main img:nth-of-type(3) {
+    width: var(--case-width);
+}
+    
+@keyframes anim-left {
+    from {
+    transform: var(--move-out);
+    }
+
+    to {
+    top: var(--left-top);
+    transform: none;
+    }
+}
+
+@keyframes anim-right {
+    from {
+    transform: var(--move-out);
+    }
+
+    to {
+    top: var(--right-top);
+    transform: none;
+    }
+}
+
